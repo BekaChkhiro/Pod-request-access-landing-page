@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+
+body {
+    font-family: 'Chivo', sans-serif;
+    background-color: rgba(18, 23, 37, 1);
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* div bg */
+
+
+.div-bg::before {
+    content: url(../mobile/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.2;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -99;
+}
+
+
+/* header */
+
+.header-div {
+    padding: 62px 120.15px 0px 120px;
+    display: flex;
+    justify-content: center;
+}
+
+/* podcasts */
+
+.podcasts {
+    margin-top: 57px;
+    padding: 0px 24px 94px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    position: relative;
+}
+
+.podcasts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.podcasts-content h1 {
+    width: 327px;
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.podcasts-content span {
+    color: #54E6AF;
+    font-size: 27px;
+    line-height: 38px;
+}
+
+.podcasts-content p {
+    color: #C2CBE5;
+    width: 327px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+}
+
+/* podcasts partners */
+
+.podcasts-partners {
+    display: flex;
+    width: 327px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* podcasts partners image */
+
+.spotify {
+    width: 56px;
+    height: 17px;
+    margin-right: 23px;
+}
+
+.apple {
+    width: 45px;
+    height: 17px;
+    margin-right: 25px;
+}
+
+.google {
+    width: 73px;
+    height: 11px;
+    margin-right: 16px;
+}
+
+.pocket {
+    width: 77px;
+    height: 15px;
+}
+
+/* form */
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 327px;
+    gap: 16px;
+}
+
+.form-div input {
+    width: 295px;
+    padding: 9px 0px 9px 32px;
+    background-color: rgba(44, 52, 75, 1);
+    border: none;
+    border-radius: 28px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#main-button {
+    width: 326px;
+    height: 46px;
+    background-color: rgba(84, 230, 175, 1);
+    border: none;
+    border-radius: 28px;
+    color: rgba(18, 23, 37, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#main-button:hover {
+    background-color: #B3FFE2;
+    cursor: pointer;
+}
+
+#error {
+    display: none;
+    margin: 8px 0px 0px 32px;
+    width: 175px;
+    color: #FB3E3E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.28px;
+}
+
+@media screen and (max-width: 1439px) {
+    #error {
+        display: none;
+    }
+}

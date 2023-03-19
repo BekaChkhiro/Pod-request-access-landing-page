@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/reset.css" />
+    <link rel="stylesheet" href="./assets/style/mobile.css" />
+    <link rel="stylesheet" href="./assets/style/tablet.css" />
+    <link rel="stylesheet" href="./assets/style/desktop.css" />
+    <title>Pod request access landing page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header-div">
+          <img src="./assets/desktop/logo.svg" alt="logo" />
+        </div>
+      </header>
+      <div class="div-bg">
+        <div class="podcasts">
+          <div class="podcasts-content">
+            <h1><span>Publish your podcasts </span> everywhere.</h1>
+            <p>
+              Upload your audio to Pod with a single click. We’ll then
+              distribute your podcast to Spotify, Apple Podcasts, Google
+              Podcasts, Pocket Casts and more!
+            </p>
+          </div>
+          <div class="second-div">
+            <div class="podcasts-partners">
+              <img
+                class="spotify"
+                src="./assets/desktop/spotify.svg"
+                alt="spotify"
+              />
+              <img
+                class="apple"
+                src="./assets/desktop/apple-podcast.svg"
+                alt="apple-podcast"
+              />
+              <img
+                class="google"
+                src="./assets/desktop/google-podcasts.svg"
+                alt="google-podcasts"
+              />
+              <img
+                class="pocket"
+                src="./assets/desktop/pocket-casts.svg"
+                alt="pocket-casts"
+              />
+            </div>
+            <div class="input-div">
+              <div action="" class="form-div">
+                <input
+                  id="emailInput"
+                  type="email"
+                  placeholder="Email address"
+                />
+                <button id="main-button" onclick="validMail(emailInput)">
+                  Request Access
+                </button>
+              </div>
+              <p id="error">Oops! Please check your email</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>

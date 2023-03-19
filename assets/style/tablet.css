@@ -1,0 +1,135 @@
+@media screen and (min-width: 768px) {
+    
+    body {
+        background: url(../tablet/image-host.jpg) no-repeat, url(../desktop/bg-pattern-dots.svg) no-repeat, rgba(18, 23, 37, 1);
+        background-position: 274px 0px, bottom left 30px;
+        background-size: 491px 767px, 232px 104px;
+    }
+    
+    main {
+        align-items: start;
+    }
+
+
+    /* div bg */
+
+    .div-bg::before {
+        content: "";
+        position: none;
+    }
+
+    /* header */
+
+    .header-div {
+        padding: 50px 0px 0px 39px;
+    }
+
+    /* podcasts */
+
+    .podcasts {
+        width: 635px;
+        margin: 152px 94px 257px 39px;
+        gap: 40px;
+        align-items: start;
+        padding: 94px 0px 0px;
+        background-color: rgba(18, 23, 37, 1);
+    }
+
+    .podcasts-content {
+        gap: 31px;
+        align-items: start;
+    }
+
+    .podcasts-content h1 {
+        width: 635px;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: start;
+    }
+
+    .podcasts-content span {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .podcasts-content p {
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: start;
+    }
+
+    /* second div */
+
+    .second-div {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 63.05px;
+    }
+
+    /* form div */
+
+    .form-div {
+        width: 427px;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px;
+        gap: 0px;
+    }
+
+    .form-div input {
+        padding: 14px 0px 14px 32px;
+        width: 395px;
+    }
+
+    #main-button {
+        width: 162px;
+        margin: 0px;
+        margin-left: -167px;
+    }
+
+    /* partners */
+
+    .podcasts-partners {
+        width: 536px;
+    }
+    
+    .spotify {
+        width: 95.9px;
+        height: 28.91px;
+        margin-right: 40.05px;
+    }
+    
+    .apple {
+        width: 78px;
+        height: 29px;
+        margin-right: 41px;
+    }
+    
+    .google {
+        width: 125px;
+        height: 18px;
+        margin-right: 27px;
+    }
+    
+    .pocket {
+        width: 129px;
+        height: 26px;
+    }
+
+    #main-button:hover {
+        background-color: #B3FFE2;
+        cursor: pointer;
+    }
+
+    #error {
+        display: none;
+        margin: 8px 0px 0px 32px;
+        width: 175px;
+        color: #FB3E3E;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.28px;
+    }
+
+}

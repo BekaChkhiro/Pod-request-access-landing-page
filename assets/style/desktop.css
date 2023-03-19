@@ -1,0 +1,63 @@
+@media screen and (min-width: 1440px) {
+    
+    body {
+        background:  url(../desktop/bg-pattern-dots.svg) no-repeat, url(../desktop/image-host.jpg) no-repeat, rgba(18, 23, 37, 1);
+        background-size: 232px 104px, 962px 640px;
+        background-position: bottom 78px right 0px, right -14px center;
+    }
+
+    /* header */
+
+    .header-div {
+        padding: 102px 0px 0px 165px;
+    }
+
+    /* podcasts */
+
+    .podcasts {
+        margin: 103px 552px 130px 165px;
+        padding: 88px 58px 0px 0px;
+        width: 665px;
+    }
+
+    .podcasts-content {
+        gap: 24px;
+    }
+
+    .podcasts-content h1 {
+        width: 665px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .podcasts-content p {
+        width: 445px;
+    }
+
+    .second-div {
+        gap: 64.05px;
+    }
+
+    /* main button */
+
+    #main-button:hover {
+        background-color: #B3FFE2;
+        cursor: pointer;
+    }
+
+    /* input div */
+
+    #error {
+        display: none;
+        margin: 8px 0px 0px 32px;
+        width: 175px;
+        color: #FB3E3E;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.28px;
+    }
+
+    /* .input-div input::placeholder {
+        color: red;
+    } */
+}
